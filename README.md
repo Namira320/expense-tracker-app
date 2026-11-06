@@ -1,54 +1,69 @@
-# Expense Tracker App — Starter Project
+# 💸 Tracker.io - Expense Tracker Web Application 💰
 
-Selamat datang di *starter project* submission kelas **Front-End Web Pemula**! 🎉
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=image/svg+xml;base64,...&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-Proyek ini sudah dilengkapi dengan tampilan HTML dan CSS yang siap pakai. Tugas Anda adalah melengkapi logika JavaScript-nya di berkas `main.js` agar aplikasi berfungsi sepenuhnya.
+**Tracker.io** is a modern, responsive, and feature-rich front-end web application. It allows users to manage and monitor their personal finances, track incomes and expenses in real-time, and securely store data using browser local storage. 📊
 
 ---
 
-## Struktur Berkas
+## ✨ Features & Capabilities 🚀
+
+* **💼 Financial Summary Dashboard**: Automatically calculates and displays real-time Current Balance, Total Income, and Total Expenses based on recorded transactions.
+* **📝 Transaction Management (CRUD)**: Add, edit, delete, and switch transaction categories (Income ⟷ Expense) effortlessly.
+* **🔍 Dynamic Search & Filtering**: Instantly search transactions by title (*live search*) with automated list filtering.
+* **💾 Local Persistence**: Client-side data storage leveraging browser `localStorage` ensuring your records remain saved across sessions.
+* **⚙️ Custom Event Architecture**: Implements custom JavaScript events (`transaction:updated`) for clean state synchronization and reactive UI rendering.
+* **📱 Fully Responsive Design**: Fluid layouts optimized for Desktop, Tablet, and Mobile devices using CSS Flexbox, Grid, and media queries.
+* **♿ Accessibility Focused**: Includes proper semantic markup and screen-reader-only utility classes (`.visually-hidden`) for enhanced web accessibility.
+
+---
+
+## 🛠️ Technology Stack 💻
+
+* **Markup**: HTML5 (Semantic elements & testing attributes `data-testid`)
+* **Styling**: CSS3 (BEM Methodology, CSS Custom Properties / Variables, Responsive Design)
+* **Scripting**: Vanilla JavaScript (ES6+, DOM Manipulation, LocalStorage API, Event-Driven Architecture)
+* **Fonts**: Google Fonts (`Outfit`)
+
+---
+
+## 📂 Project Structure 🗂️
+
+```text
+├── index.html       # Main application markup & structure
+├── style.css        # Styling sheet adhering to BEM naming conventions
+└── main.js          # Core application logic, event handlers & state management
 
 ```
-expense-tracker-starter-project/
-├── index.html   ← Struktur halaman (jangan diubah, kecuali bagian greeting)
-├── style.css    ← Tampilan visual (bebas dimodifikasi untuk portofolio)
-├── main.js      ← Tempat Anda menulis seluruh logika JavaScript
-└── README.md    ← Panduan ini
-```
 
 ---
 
-## Cara Menjalankan Proyek
+## 🚀 Getting Started  
 
-Proyek ini adalah HTML statis, sehingga tidak memerlukan instalasi apapun.
+To run or evaluate this project locally on your machine, follow these simple steps:
 
-**Opsi 1 (Disarankan):** Gunakan ekstensi **Live Server** di VS Code.
-1. Klik kanan pada `index.html`
-2. Pilih **"Open with Live Server"**
-3. Browser akan terbuka otomatis di `http://127.0.0.1:5500`
+1. **Navigate** into the project directory:
+    ```bash
+    cd expense-tracker-app
 
-**Opsi 2:** Buka langsung berkas `index.html` di browser (klik dua kali dari File Explorer).
+    ```
 
----
 
-## Mulai dari Mana?
-
-1. **Buka `index.html`**, temukan komentar `TODO` di bagian atas dan ganti teks `Siswa Front-End` dengan nama lengkap serta username Dicoding Anda.
-2. **Buka `main.js`**, baca semua komentar `TODO` dari atas ke bawah. Setiap TODO menunjukkan satu bagian logika yang perlu Anda tulis.
-3. Mulai dari TODO berlabel `[Basic]`, kemudian lanjut ke `[Skilled]` dan `[Advanced]` sesuai target nilai Anda.
+2. **Open** `index.html` directly in your preferred web browser, or use a local development server extension (like **Live Server** in VS Code / Antigravity).
 
 ---
 
-## Catatan Penting
+## 💡 Usage Guide 🪙
 
-- **Atribut `data-testid`** pada elemen-elemen di `index.html` digunakan oleh sistem penilaian untuk memverifikasi struktur aplikasi Anda. Pastikan nilai atribut ini tidak berubah saat Anda membuat elemen kartu transaksi via JavaScript.
-- **Atribut `id`** seperti `incomeList`, `expenseList`, dan `transactionForm` juga digunakan oleh JavaScript. Pastikan nilainya tidak berubah.
-- Anda **bebas mengubah** warna, font, layout, dan styling di `style.css` untuk membuat tampilan yang unik dan personal.
+1. **Adding a Transaction**: Fill in the title/description, amount in Rupiah (IDR), select the transaction date, choose the classification (*Uang Masuk* or *Uang Keluar*), and click **Simpan** 📥/📤.
+2. **Managing Transactions**:
+    * Click **Ubah Tipe** to quickly toggle a transaction between income and expense.
+    * Click **Edit** to load transaction details back into the form for modifications ✍️.
+    * Click **Hapus** to remove a transaction record permanently 🗑️.
+
+
+3. **Searching**: Type keywords into the search input to instantly filter transaction histories 🔎.
 
 ---
 
-## Cara Mengumpulkan
 
-1. Pastikan semua fitur sudah berjalan dengan baik di browser.
-2. Kompres seluruh folder proyek menjadi satu berkas **ZIP**.
-3. Unggah berkas ZIP tersebut ke halaman submission di platform Dicoding.
