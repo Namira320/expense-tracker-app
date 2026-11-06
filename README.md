@@ -6,6 +6,11 @@
 
 ---
 
+## 📺 Demo Video
+[![Watch the video](https://img.youtube.com/vi/W-BuxlQszYU/hqdefault.jpg)](https://youtu.be/W-BuxlQszYU)
+
+---
+
 ## ✨ Features & Capabilities 🚀
 
 * **💼 Financial Summary Dashboard**: Automatically calculates and displays real-time Current Balance, Total Income, and Total Expenses based on recorded transactions.
