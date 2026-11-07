@@ -4,7 +4,7 @@
 
 **Tracker.io** is a modern, responsive, and feature-rich front-end web application. It allows users to manage and monitor their personal finances, track incomes and expenses in real-time, and securely store data using browser local storage. 📊
 
-> 📜 **Certification Context:** This project was developed as the final submission for the **Front-End Web for Beginners** class in the **Dicoding DBS** program.  
+> 📜 **Certification Context:** This project was developed as the final submission for the **Front-End Web for Beginners** class in the **Dicoding** program.  
 > [![Dicoding Certificate - Page 1](certificate/certificate-page1.png)](Front-End-Web-for-Beginners.pdf)
 
 ---
